@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms!</title>
+</head>
+
+<body>
+    <form id="details" method="GET" action="PetForm.html">
+        <fieldset>
+            <legend>Animal</legend>
+            <ol>
+                <li>
+                    <label for="animal">Animal Name:</label>
+                    <select id="catagory" name="animal">
+                        <option value="Monkey">Monkey</option>
+                        <option value="Crocodiles">Crocodiles</option>
+                        <option value="Tigers">Tigers</option>
+                </li>
+                <li>
+                    <label for="name">Animal Name:</label>
+                    <input id="name" name="name" type="name" />
+                </li>
+                <li>
+                    <label for="id">Animal ID:</label>
+                    <input id="id" name="id" type="animalId" />
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset>
+            <button id="butt1" type="submit">Submit</button>
+            <button id="reset" type="reset">Reset</button>
+        </fieldset>
+    </form>
+    <script src="./index.js"></script>
+</body>
+
+</html>
